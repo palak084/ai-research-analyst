@@ -332,7 +332,7 @@ def generate_chart(text):
     ax.spines['left'].set_color('#D4C4B0')
     ax.xaxis.grid(True, color='#D4C4B0', linestyle='--', alpha=0.5)
     ax.set_axisbelow(True)
-    plt.tight_layout()
+    plt.tight_layout(pad=1.5)
     return fig
 
 
@@ -406,7 +406,7 @@ def render_sentiment_gauge(polarity, subjectivity, tone, tone_color):
     ax2.spines['left'].set_visible(False)
     ax2.spines['bottom'].set_color('#D4C4B0')
 
-    plt.tight_layout()
+    fig.subplots_adjust(left=0.05, right=0.95, wspace=0.35)
     return fig
 
 
@@ -469,7 +469,7 @@ def render_topic_chart(topics):
     ax.spines['left'].set_color('#D4C4B0')
     ax.xaxis.grid(True, color='#D4C4B0', linestyle='--', alpha=0.5)
     ax.set_axisbelow(True)
-    plt.tight_layout()
+    plt.tight_layout(pad=1.5)
     return fig
 
 
