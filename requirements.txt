@@ -8,3 +8,10 @@ python-docx
 pandas
 matplotlib
 openpyxl
+fpdf2
+textblob
+scikit-learn
+numpy
+chromadb
+sentence-transformers
+python-multipart

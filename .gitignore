@@ -1,8 +1,28 @@
 venv/
 __pycache__/
 *.pyc
+*.pyo
 .env
-.streamlit/
+.env.*
+.streamlit/secrets.toml
 *.egg-info/
 dist/
 build/
+*.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+*.log
+
+# Model cache
+.cache/
