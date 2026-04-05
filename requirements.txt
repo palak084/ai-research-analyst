@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+requests
+streamlit
+PyPDF2
+python-docx
+pandas
+matplotlib
+openpyxl
